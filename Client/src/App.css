@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.peoples::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .peoples {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .post-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+    
+  }
